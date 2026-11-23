@@ -1,0 +1,10 @@
+torch==2.8.0
+numpy>=2.3.0,<3
+PyYAML>=6.0
+wandb>=0.21
+nltk>=3.9
+sentencepiece>=0.2
+sacrebleu>=2.5
+tqdm>=4.67
+matplotlib>=3.10
+seaborn>=0.13

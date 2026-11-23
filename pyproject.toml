@@ -1,0 +1,19 @@
+[project]
+name = "cw2-2026-2027-students"
+version = "0.1.0"
+description = "CW2 skeleton for F20NL/F21NL 2026-2027."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch==2.8.0",
+    "numpy>=2.3.0,<3",
+    "pyyaml>=6.0",
+    "wandb>=0.21",
+    "nltk>=3.9",
+    "sentencepiece>=0.2",
+    "sacrebleu>=2.5",
+    "tqdm>=4.67",
+    "matplotlib>=3.10",
+    "seaborn>=0.13",
+]
+ 

@@ -1,0 +1,96 @@
+_wandb:
+    value:
+        cli_version: 0.31.0
+        e:
+            01a209b5-dc77-70c6-87a0-f9563f0d622f:
+                args:
+                    - --model-config
+                    - model_config.yaml
+                    - --train-config
+                    - train_config.yaml
+                    - --checkpoint-path
+                    - checkpoints/xlarge512
+                    - --wandb-project
+                    - nmt-project-26-27
+                    - --wandb-run-name
+                    - bilstm-xlarge-512
+                codePath: train.py
+                codePathLocal: train.py
+                cpu:
+                    model: AMD Ryzen 9 5900HX with Radeon Graphics
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "13.1"
+                disk:
+                    /:
+                        total: "1022607298560"
+                        used: "955880476672"
+                email: nadkarniyashsmg4@gmail.com
+                executable: C:\Users\nadka\anaconda3\python.exe
+                gpu: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 2560
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+                      pciBusId: "00000000:01:00.0"
+                      uuid: GPU-2fa590ae-4d46-0ed9-4da5-6cd5ca515db7
+                host: LAPTOP-9LIJL2I6
+                memory:
+                    total: "33721827328"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\nadka\Desktop\NLP\CW2\cw2_2026_2027-students\cw2_2026_2027-students\part1\train.py
+                python: CPython 3.13.5
+                root: C:\Users\nadka\Desktop\NLP\CW2\cw2_2026_2027-students\cw2_2026_2027-students\part1
+                startedAt: "2026-11-23T18:40:43.116555Z"
+                writerId: 01a209b5-dc77-70c6-87a0-f9563f0d622f
+        m: []
+        python_version: 3.13.5
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 13
+                - 16
+                - 61
+            "4": 3.13.5
+            "5": 0.31.0
+            "8":
+                - 3
+            "12": 0.31.0
+            "13": windows-amd64
+dev_batch_size:
+    value: 128
+dropout_rate:
+    value: 0.2
+embed_size:
+    value: 512
+hidden_size:
+    value: 512
+log_every:
+    value: 10
+lr:
+    value: 0.001
+lr_decay:
+    value: 0.5
+max_epoch:
+    value: 30
+max_num_trial:
+    value: 5
+patience:
+    value: 1
+seed:
+    value: 0
+train_batch_size:
+    value: 128
+uniform_init:
+    value: 0.1
+valid_niter:
+    value: 2000

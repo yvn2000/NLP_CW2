@@ -1,0 +1,18 @@
+weights and biases api key
+
+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
+
+
+Key information
+Key ID
+: wandb_v1_RF5W8oAFt1qNHftCVZNKfJplnmo
+Name
+: NLP CW2
+Created
+: Nov 06, 2026
+Owner
+: Yash Nadkarni
+Scope
+: nadkarniyashsmg4-heriot-watt-university-org
+Expires
+: Feb 04, 2027
